@@ -1,0 +1,142 @@
+
+
+        :root {
+            --primary-color: #0066cc;      
+            --secondary-color: #00aaff;    
+            --accent-color: #ff6600;       
+            --dark-bg: #f8f9fa;           
+            --darker-bg: #e9ecef;         
+            --text-dark: #333;        
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-dark);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .navbar {
+            background-color: var(--primary-color) !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .navbar-brand {
+            color: white !important;
+            font-weight: 600 !important;
+        }
+
+        .nav-link {
+            color: rgba(255,255,255,0.9) !important;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: white !important;
+        }
+
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .carousel-caption {
+            background: rgba(0, 102, 204, 0.8);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+
+        .card {
+            border: 1px solid #dee2e6;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 102, 204, 0.15);
+        }
+
+        .card-title {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+
+
+        section h2 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+
+        #projects {
+            background-color: var(--darker-bg);
+        }
+
+        #contact {
+            background-color: white;
+        }
+
+        .contact-section h2 {
+            color: var(--primary-color) !important;
+            font-size: 2.2rem;
+        }
+        
+        .contact-section p {
+            color: #666 !important;
+        }
+
+        .form-control {
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+        }
+
+        .form-label {
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .btn-dark {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+            border-radius: 5px;
+        }
+
+        .btn-dark:hover {
+            background-color: #e55a00;
+            border-color: #e55a00;
+        }
+
+        footer {
+            background-color: #343a40;
+        }
+
+        footer a {
+            color: var(--secondary-color) !important;
+        }
+
+        footer a:hover {
+            color: var(--accent-color) !important;
+        }
+
+        section {
+            padding: 60px 0;
+        }
